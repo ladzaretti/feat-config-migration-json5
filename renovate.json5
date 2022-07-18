@@ -3,7 +3,7 @@
   lockFileMaintenance: {"enabled": false},
   onboarding: false,
   pinVersions: false,
-  semanticCommits: 'enabled',
+  semanticCommits: true,
   timezone: 'US/Central',
   baseBranch: "main", // comment
   packageRules: [
