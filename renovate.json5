@@ -9,7 +9,7 @@
   packageRules: [
     {
       matchPackageNames: ['helm'],
-      extractVersion: '^v(?<version>.*)',
+      extractVersion: '^v(?<version>.*)$',
     },
   ],
 }
