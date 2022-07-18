@@ -2,14 +2,15 @@
   extends: ["config:base"],
   lockFileMaintenance: {"enabled": false},
   onboarding: false,
-  rangeStrategy: 'replace',
+  pinVersions: false,
   semanticCommits: 'enabled',
   timezone: 'US/Central',
   baseBranch: "main", // comment
   packageRules: [
     {
-      matchPackageNames: ['helm'],
+      packageNames: ['helm'],
       extractVersion: '^v(?<version>.*)$',
+      schedule: ["at any time"],
     },
   ],
 }
