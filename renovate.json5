@@ -4,12 +4,12 @@
   onboarding: false,
   pinVersions: false,
   semanticCommits: true,
-  timezone: 'US/Central',
+  timezone: "US/Central",
   baseBranch: "main", // comment
   packageRules: [
     {
-      packageNames: ['helm'],
-      extractVersion: '^v(?<version>.*)$',
+      packageNames: ["helm"],
+      extractVersion: "^v(?<version>.*)$",
       schedule: ["at any time"],
     },
   ],
